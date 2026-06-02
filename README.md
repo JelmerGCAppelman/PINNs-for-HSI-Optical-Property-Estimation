@@ -67,16 +67,17 @@ The repository implements two neural network architectures:
 
 This `.npy` file contains a matrix with the absorption coefficients of the chromophores and the refractive indices of skin and air. The rows correspond to the chromophores/refractive indices, while the columns correspond to the 47 wavelength values ranging from 450 nm to 818 nm in steps of 8 nm.
 
-| Python row index | Parameter | Source |
-|------------------|-----------|---------|
-| 0 | $\mu_{a,\mathrm{bg}}$ | This work |
-| 1 | $\mu_{a,\mathrm{HbO_2}}$ | Prahl (1999) |
-| 2 | $\mu_{a,\mathrm{Hb}}$ | Prahl (1999) |
-| 3 | $\mu_{a,\mathrm{water}}$ | Jacques et al. (2013) |
-| 4 | $\mu_{a,\mathrm{fat}}$ | Jacques et al. (2013) |
-| 5 | $\mu_{a,\mathrm{melanin}}$ | Jacques et al. (2013) |
-| 6 | $n_{\mathrm{skin}}$ | Jacques et al. (2013) |
-| 7 | $n_{\mathrm{air}}$ | Standard optical constants |
+| Python row index | Parameter                  | Source                           |
+| ---------------- | -------------------------- | -------------------------------- |
+| 0                | $\mu_{a,\mathrm{bg}}$      | Saidi et al. (1992) [1]          |
+| 1                | $\mu_{a,\mathrm{HbO_2}}$   | Gratzer and Kollias (1998) [2]   |
+| 2                | $\mu_{a,\mathrm{Hb}}$      | Gratzer and Kollias (1998) [2]   |
+| 3                | $\mu_{a,\mathrm{water}}$   | Buiteveld et al. (1994) [3]      |
+| 4                | $\mu_{a,\mathrm{fat}}$     | van Veen et al. (2005) [4]       |
+| 5                | $\mu_{a,\mathrm{melanin}}$ | Jacques and McAuliffe (1991) [5] |
+| 6                | $n_{\mathrm{skin}}$        | Ding et al. (2006) [6]           |
+| 7                | $n_{\mathrm{air}}$         | Voronin and Zheltikov (2017) [7] |
+
 
 In this work, the background absorption coefficient is modeled as $\mu_{a,\mathrm{bg}}$. The file additionally contains absorption coefficients for several chromophores, including water and fat. Additional chromophores may be incorporated in future extensions of the model.
 
@@ -431,3 +432,19 @@ If you use this work, please cite:
   note={Manuscript under review}
 }
 ```
+
+# References
+
+[1] I. S. Saidi, *Transcutaneous Optical Measurement of Hyperbilirubinemia in Neonates*, Rice University, 1992.
+
+[2] W. Gratzer and N. Kollias, *Tabulated Molar Extinction Coefficient for Hemoglobin in Water*. Medical Research Council Laboratories, London. Data compiled by S. Prahl, 1998.
+
+[3] H. Buiteveld, J. H. M. Hakvoort, and M. Donze, "Optical properties of pure water," in *Ocean Optics XII*, vol. 2258, pp. 174–183, SPIE, 1994.
+
+[4] L. P. van Veen, H. J. C. M. Sterenborg, A. Pifferi, A. Torricelli, E. Chikoidze, and R. Cubeddu, "Determination of visible and near-infrared absorption coefficients of mammalian fat using time- and spatially resolved diffuse reflectance and transmission spectroscopy," *Journal of Biomedical Optics*, vol. 10, no. 5, 054004, 2005.
+
+[5] S. L. Jacques and D. J. McAuliffe, "The melanosome: threshold temperature for explosive vaporization and internal absorption coefficient during pulsed laser irradiation," *Photochemistry and Photobiology*, vol. 53, pp. 769–775, 1991.
+
+[6] H. Ding, J. Q. Lu, W. A. Wooden, P. J. Kragel, and X.-H. Hu, "Refractive indices of human skin tissues at eight wavelengths and estimated dispersion relations between 300 and 1600 nm," *Physics in Medicine & Biology*, vol. 51, no. 6, pp. 1479–1489, 2006.
+
+[7] A. A. Voronin and A. M. Zheltikov, "The generalized Sellmeier equation for air," *Scientific Reports*, vol. 7, no. 1, pp. 1–11, 2017.
