@@ -422,16 +422,13 @@ For access requests or additional information, please contact the corresponding 
 
 # Citation
 
-If you use this work, please cite:
+If you use this work, please cite our paper:
 
-```bibtex
-@misc{appelman2026pinns,
-  title={Physics-Informed Neural Networks for Hyperspectral Skin Tissue Parameter Estimation},
-  author={Appelman, Jelmer and co-authors},
-  year={2026},
-  note={Manuscript under review}
-}
-```
+**Physics-Informed Neural Networks for Estimation of Volume and Surface Optical Parameters in Skin Hyperspectral Imaging Using One- and Two-Layer Tissue Models**
+
+*Biomedical Optics Express* (accepted for publication).
+
+The BibTeX entry will be added once available.
 
 # References
 
