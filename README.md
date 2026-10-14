@@ -426,8 +426,8 @@ If you use this code or build upon this work, please cite our publication:
 
 **Appelman, J. G. C., et al. (2026).** Physics-informed neural networks for estimation of volume and surface optical parameters in skin hyperspectral imaging using one- and two-layer tissue models. *Biomedical Optics Express, 17*(11), 5730–5751.
 
-**Paper:** https://doi.org/10.1364/BOE.613680
-
+- **Published paper:** https://doi.org/10.1364/BOE.613680
+- **Supplementary material:** https://doi.org/10.6084/m9.figshare.34010268
 ### BibTeX
 
 ```bibtex
