@@ -422,13 +422,27 @@ For access requests or additional information, please contact the corresponding 
 
 # Citation
 
-If you use this work, please cite our paper:
+If you use this code or build upon this work, please cite our publication:
 
-**Physics-Informed Neural Networks for Estimation of Volume and Surface Optical Parameters in Skin Hyperspectral Imaging Using One- and Two-Layer Tissue Models**
+**Appelman, J. G. C., et al. (2026).** Physics-informed neural networks for estimation of volume and surface optical parameters in skin hyperspectral imaging using one- and two-layer tissue models. *Biomedical Optics Express, 17*(11), 5730–5751.
 
-*Biomedical Optics Express* (accepted for publication).
+**Paper:** https://doi.org/10.1364/BOE.613680
 
-The BibTeX entry will be added once available.
+### BibTeX
+
+```bibtex
+@article{Appelman2026,
+  author = {Appelman, Jelmer G. C. and Witteveen, Mark and Aalders, Maurice C. G. and van Leeuwen, Ton G. and Sterenborg, Henricus J. C. M. and Ruers, Theo J. M. and Dashtbozorg, Behdad and Gurney-Champion, Oliver J.},
+  title = {Physics-informed neural networks for estimation of volume and surface optical parameters in skin hyperspectral imaging using one- and two-layer tissue models},
+  journal = {Biomedical Optics Express},
+  volume = {17},
+  number = {11},
+  pages = {5730--5751},
+  year = {2026},
+  doi = {10.1364/BOE.613680},
+  publisher = {Optica Publishing Group}
+}
+```
 
 # References
 
